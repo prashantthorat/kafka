@@ -1,11 +1,14 @@
 name: simple test
-
 on:
   push:
     branches:
       - 'main'
- 
   pull_request:
     branches:
-      - 'main''
-      
+      - 'main'      
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+     - name: hello step
+       run: echo "PT simple action test"
