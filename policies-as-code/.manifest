@@ -1,3 +1,0 @@
-{
-    "roots": ["istio/authz", "l1_permissions", "l3_permissions"]
-}

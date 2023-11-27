@@ -1,5 +1,0 @@
-{
-  "l3_permissions": [
-    { "method": "POST", "path": "/comidentityas/v1/test-opa" }
-  ]
-}
